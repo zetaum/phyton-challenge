@@ -1,3 +1,4 @@
+#HW 3 - PyBank
 # Import the os module
 # This will allow to create file path across operating system
 import os
@@ -39,7 +40,7 @@ with open(csvpath, newline='') as csvfile:
     net_profit_loss = net_profit_loss + profit_loss
     
 
- 
+    #Read each row after the header
     for row in csvreader:           
         #print(row)
         #Calculates the number of months included in the dataset
