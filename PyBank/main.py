@@ -72,11 +72,29 @@ with open(csvpath, newline='') as csvfile:
             greatest_decrease = int(row[1])
             greatest_decrease_date = row[0]
 
+    #Print analysis
+    print(f'Financial Analysis')
+    print(f'-------------------------')
     print(f'Total Months: {number_months}')
     print(f'Total Net Profit and Loss: {net_profit_loss}')
     print(f'Total Average Change: ${change_average:.2f}')
     print(f'Greatest Increase in Profits: (${greatest_increase})')
-    print(f'Greatest Increase in Profits- Date : {greatest_increase_date}')
+    print(f'Greatest Increase in Profits-Date : {greatest_increase_date}')
     print(f'Greatest Decrease in Profits: (${greatest_decrease})')
-    print(f'Greatest Decrease in Profits- Date : {greatest_decrease_date}')
+    print(f'Greatest Decrease in Profits-Date : {greatest_decrease_date}') 
+
+    #Set the path for the final analysis script to be exported
+    output_file = os.path.join('PyBank', 'Resources', 'budget_data.txt')
+    #Open and read file using "write" module
+with open(output_file, 'w') as text:
+    # Write financial analysis to a new text file
+    text.write(f'Financial Analysis\n')
+    text.write(f'-------------------------\n')
+    text.write(f'Total Months: {number_months}\n')
+    text.write(f'Total Net Profit and Loss: {net_profit_loss}\n')
+    text.write(f'Total Average Change: ${change_average:.2f}\n')
+    text.write(f'Greatest Increase in Profits: (${greatest_increase})\n')
+    text.write(f'Greatest Increase in Profits-Date : {greatest_increase_date}\n')
+    text.write(f'Greatest Decrease in Profits: (${greatest_decrease})\n')
+    text.write(f'Greatest Decrease in Profits-Date : {greatest_decrease_date}\n') 
    
