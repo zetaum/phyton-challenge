@@ -2,7 +2,7 @@
 Python Homework - Py Me Up, Charlie
 
 This is the HW assignment for programming with Python. 
-In this homework assignment I use the concepts I have learned in clas to complete the two Python Challenges, PyBank and PyPoll.
+In this homework assignment I use the concepts I have learned in class to complete the two Python Challenges.
 
 Both of these challenges encompasses a real-world situation.
 
@@ -12,7 +12,7 @@ The 2 challengers are as follows: PyBank and PyPoll and a file called main.py wa
 The "analysis" folders contains the text file showing the results from each analysis.
 
 PyBank - challenge
-This challenge, contains the financial records of my company. The dataset is composed of two columns: Date and Profit/Losses.
+This challenge contains the financial records of my company. The dataset is composed of two columns: Date and Profit/Losses.
 
 
 A Python script was created to analyze the records to calculate each of the following:
@@ -26,7 +26,7 @@ In addition, a final script contains both print the analysis to the terminal and
 
 
 PyPoll - challenge
-This challenge, contains a set of poll date records of a small, rural town modernize its vote counting process. The dataset, election_data.csv, is composed of two columns: oter ID, County, and Candidate.
+This challenge contains a set of poll data records of a small, rural town that needs to modernize its vote counting process. The dataset, election_data.csv, is composed of two columns: oter ID, County, and Candidate.
 
 
 A Python script was created to analyze the records to calculate each of the following:
